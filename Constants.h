@@ -9,7 +9,7 @@ const int MIN_WORD = -9999;
 
 const int INSTRUCTION_SIZE = 100;
 
-const int NUMARR_SIZE = 1000;
+const int NUMARR_SIZE = 100;
 
 
 const int READ = 10;
