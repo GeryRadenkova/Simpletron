@@ -65,7 +65,11 @@ places (copies) the result back into memory location 09.Then the <strong><em>wri
 <p>At this point, you should implement your Simpletron simulator and run each of the SML programs you wrote in Exercise 8.18.The variables that represent the Simpletron simulator’s memory and registers should be defined in main and passed to other functions by value or by reference as appropriate. </p>
 <p>Your simulator should check for various types of errors. During the program loading phase, for example, each number the user types into the Simpletron’s memory must be in the range -9999 to +9999. Your simulator should use a while loop to test that each number entered is in this range and, if not, keep prompting the user to reenter the number until the user enters a correct number.</p>
 <p>During the execution phase, your simulator should check for various serious errors, such as attempts to divide by zero, attempts to execute invalid operation codes, accumulator overflows (i.e., arithmetic operations resulting in values larger than +9999 or smaller than -9999) and the like. Such serious errorsare called <strong>fatal errors</strong>. When a fatal error is detected, your simulator should print an error message such as </p>
+
+
 ![](https://lh3.googleusercontent.com/W5x8trobmN90GiOguJHhN6OsdJ8TXaggo2hRd7U8ow-NdBIRy9gU-3sjaPUOGI9mtCjiPl6Ujah0 "image7")
+
+
 <p>and should print a full register and memory dump in the format we’ve discussed previously. This will help the user locate the error in the program.</p>
 <p> <strong>8.20</strong> (Project: Modifications to the Simpletron Simulator) InExercise 8.19, you wrote a software simulation of a computer that executes programs written in Simpletron Machine Language (SML). In this exercise,we propose several modifications and enhancements to the Simpletron Simulator. Some of the following modifications and enhancements may be required to execute
 the programs produced by the compiler.
