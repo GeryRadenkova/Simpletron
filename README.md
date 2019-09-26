@@ -1,4 +1,4 @@
-<h2>BuildingYourOwn Computer </h2>
+<h2>Building Your Own Computer </h2>
 	<p><strong>8.18</strong>(Machine-LanguageProgramming)Let’s create a computer we’ll call the Simpletron. As its name implies,it’s a simple machine, but, as we’ll soon see, it’s a powerful one as well. The Simpletron runs programs written in the only language it directlyunderstands, that is, Simpletron Machine Language, or SML for short. </p>
 	<p>The Simpletron contains an *accumulator*—a “special register” in which information is put before the Simpletron uses that information in calculations or examines it in various ways. All information in the Simpletron is handled in terms of words. A word is a signed four-digit decimal number, such as +3364, -1293, +0007, -0001,etc. The Simpletron is equipped with a 100-word memory, and these words are referenced by their location numbers 00, 01, …, 99. </p>
 	<p>Before running an SML program, we must *load*, or place, the program into memory. The first instruction (or statement) of every SML program is always placed in location 00. The simulator will start executing at this location.</p>
