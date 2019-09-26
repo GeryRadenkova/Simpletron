@@ -226,7 +226,7 @@ bool executeInstruction(int instructionArr[], int numArr[], int instruction, int
 
 	case LARGEST_NUMBER:
 
-		cout << "Among how meny numbers you want to see the largest one: \n";
+		cout << "Among how many numbers you want to see the largest one: \n";
 		cin >> howManyNumbers;
 
 		for (int i = 0; i < howManyNumbers; i++) {
